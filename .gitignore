@@ -11,6 +11,11 @@ SocialMedia/
 Mascots_May_26/
 *.bak
 
+# Nested repo folders
+SuperNotes_App_Repo/
+SuperNotes_Promo_Repo/
+SuperNotes_Test_Repo/
+
 # Claude Code settings & memory
 .claude/
 
