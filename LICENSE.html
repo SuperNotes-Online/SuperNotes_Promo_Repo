@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>License — SuperNotes</title>
+<link rel="icon" type="image/png" href="images/SuperNote_logo.png">
+<script>if(localStorage.getItem('html-it-theme')==='light')document.documentElement.setAttribute('data-theme','light');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root {
+  --bg:        oklch(9%  0.015 260);
+  --bg2:       oklch(13% 0.018 260);
+  --bg3:       oklch(17% 0.02  260);
+  --border:    oklch(24% 0.016 260);
+  --ink:       oklch(97% 0.005 260);
+  --ink-mid:   oklch(93% 0.005 260);
+  --ink-muted: oklch(88% 0.006 260);
+  --green:     oklch(80% 0.19  163);
+  --green-bg:  oklch(18% 0.04  163);
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'Plus Jakarta Sans', sans-serif;
+  --font-mono:    'JetBrains Mono', monospace;
+}
+html[data-theme="light"] {
+  --bg:        oklch(97.5% 0.008 85);
+  --bg2:       oklch(94%   0.011 85);
+  --bg3:       oklch(90%   0.014 85);
+  --border:    oklch(82%   0.008 85);
+  --ink:       oklch(13%   0.015 260);
+  --ink-mid:   oklch(30%   0.012 260);
+  --ink-muted: oklch(50%   0.010 260);
+  --green:     oklch(46%   0.17  163);
+  --green-bg:  oklch(91%   0.05  163);
+}
+
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--bg); color: var(--ink);
+  line-height: 1.6; font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+  display: flex; flex-direction: column;
+}
+
+/* ── NAV ── */
+nav {
+  position: sticky; top: 0; z-index: 200;
+  background: oklch(9% 0.015 260 / 0.88);
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  padding: 0.85rem 2rem;
+}
+html[data-theme="light"] nav { background: oklch(97.5% 0.008 85 / 0.9); }
+.nav-inner {
+  max-width: 860px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.nav-brand { display: flex; align-items: center; gap: 9px; text-decoration: none; }
+.nav-brand img { height: 140px; width: auto; }
+.nav-brand-text { display: none; }
+.nav-right { display: flex; align-items: center; gap: 10px; }
+.nav-back {
+  font-family: var(--font-mono); font-size: 0.68rem; color: var(--ink-muted);
+  text-decoration: none; letter-spacing: 0.06em;
+  transition: color 0.15s ease;
+}
+.nav-back:hover { color: var(--green); }
+.theme-toggle {
+  width: 30px; height: 30px; border-radius: 6px;
+  background: transparent; border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; color: var(--ink-muted);
+  transition: background 130ms, color 130ms, border-color 130ms;
+}
+.theme-toggle:hover { background: var(--bg3); color: var(--ink); border-color: var(--green); }
+.theme-toggle svg { width: 13px; height: 13px; }
+html[data-theme="light"] .icon-moon { display: none; }
+html:not([data-theme="light"]) .icon-sun { display: none; }
+
+/* ── PAGE ── */
+main {
+  flex: 1;
+  max-width: 860px; margin: 0 auto; width: 100%;
+  padding: 4rem 2rem 5rem;
+}
+
+/* ── HEADER ── */
+.doc-header { margin-bottom: 3rem; padding-bottom: 2.5rem; border-bottom: 1px solid var(--border); }
+.doc-eyebrow {
+  display: flex; align-items: center; gap: 8px; margin-bottom: 1rem;
+}
+.eyebrow-line { width: 24px; height: 2px; background: var(--green); border-radius: 2px; }
+.eyebrow-text {
+  font-family: var(--font-mono); font-size: 0.67rem; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 0.12em; color: var(--green);
+}
+.doc-header h1 {
+  font-family: var(--font-display); font-weight: 800;
+  font-size: clamp(28px, 4vw, 42px); letter-spacing: -0.04em; color: var(--ink);
+  margin-bottom: 0.75rem; line-height: 1.1;
+}
+.doc-header .copyright {
+  font-family: var(--font-mono); font-size: 0.78rem; font-weight: 500;
+  color: var(--green); letter-spacing: 0.04em;
+}
+
+/* ── SECTIONS ── */
+.doc-section { margin-bottom: 2.5rem; }
+.doc-section h2 {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: 1.05rem; letter-spacing: -0.02em; color: var(--ink-mid);
+  text-transform: uppercase; letter-spacing: 0.05em;
+  margin-bottom: 1.25rem;
+  display: flex; align-items: center; gap: 10px;
+}
+.doc-section h2::before {
+  content: ''; display: block; width: 3px; height: 1em;
+  background: var(--green); border-radius: 2px; flex-shrink: 0;
+}
+
+/* ── TERMS CARDS ── */
+.terms-list { display: flex; flex-direction: column; gap: 0.75rem; }
+.term-item {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-radius: 10px; padding: 1.125rem 1.375rem;
+  display: flex; gap: 1rem; align-items: flex-start;
+}
+.term-icon {
+  font-size: 1rem; flex-shrink: 0; margin-top: 1px;
+  width: 32px; height: 32px; border-radius: 7px;
+  background: var(--bg3); display: flex; align-items: center; justify-content: center;
+}
+.term-body strong {
+  display: block; font-weight: 600; font-size: 0.9rem;
+  color: var(--ink); margin-bottom: 0.25rem;
+}
+.term-body p { font-size: 0.875rem; line-height: 1.65; color: var(--ink-mid); }
+
+/* ── DISCLAIMER ── */
+.disclaimer {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-radius: 10px; padding: 1.375rem 1.5rem;
+  font-size: 0.875rem; line-height: 1.7; color: var(--ink-mid);
+}
+
+/* ── CONTACT ── */
+.contact-bar {
+  margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;
+}
+.contact-bar p { font-size: 0.875rem; color: var(--ink-muted); }
+.contact-bar a {
+  font-family: var(--font-mono); font-size: 0.82rem; font-weight: 500;
+  color: var(--green); text-decoration: none; letter-spacing: 0.03em;
+  padding: 7px 16px; border-radius: 7px;
+  border: 1px solid oklch(80% 0.19 163 / 0.3);
+  background: var(--green-bg);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+html[data-theme="light"] .contact-bar a { background: var(--green-bg); }
+.contact-bar a:hover { border-color: var(--green); background: oklch(18% 0.055 163); }
+html[data-theme="light"] .contact-bar a:hover { background: oklch(87% 0.07 163); }
+
+/* ── FOOTER ── */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+footer p {
+  font-family: var(--font-mono); font-size: 0.68rem;
+  color: var(--ink-muted); letter-spacing: 0.04em;
+}
+footer span { color: var(--green); }
+
+/* ── BACK TO TOP ── */
+.btt {
+  position: fixed; bottom: 24px; right: 24px; z-index: 9999;
+  width: 38px; height: 38px; border-radius: 8px;
+  background: var(--bg3); border: 1px solid var(--border);
+  color: var(--ink-muted); display: flex; align-items: center; justify-content: center;
+  cursor: pointer; opacity: 0; pointer-events: none;
+  transition: opacity 0.2s ease, background 0.15s ease, border-color 0.15s ease;
+}
+.btt.visible { opacity: 1; pointer-events: auto; }
+.btt:hover { background: var(--bg3); border-color: var(--green); color: var(--green); }
+@media print { .btt { display: none !important; } }
+
+@media (max-width: 600px) {
+  main { padding: 2.5rem 1.25rem 4rem; }
+  nav { padding: 0.85rem 1.25rem; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="README.html">
+      <img src="images/SuperNote_logo.png" alt="SuperNotes">
+      <span class="nav-brand-text">Super<span>Notes</span></span>
+    </a>
+    <div class="nav-right">
+      <a class="nav-back" href="README.html">← README</a>
+      <button class="theme-toggle" id="themeToggle" title="Toggle light/dark">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <header class="doc-header">
+    <div class="doc-eyebrow">
+      <div class="eyebrow-line"></div>
+      <span class="eyebrow-text">Proprietary License</span>
+    </div>
+    <h1>Copyright &amp;<br>License Terms</h1>
+    <p class="copyright">Copyright © 2026 SuperNotes. All rights reserved.</p>
+  </header>
+
+  <div class="doc-section">
+    <h2>1 · Terms of Use</h2>
+    <p style="font-size:0.9rem;color:var(--ink-mid);margin-bottom:1.25rem;line-height:1.65;">
+      All software, code, assets, designs, images, and text contained in this repository are the exclusive
+      intellectual property of the author ("SuperNotes"). By viewing this repository, you agree to the following terms:
+    </p>
+    <div class="terms-list">
+      <div class="term-item">
+        <div class="term-icon">🚫</div>
+        <div class="term-body">
+          <strong>No Copying or Redistribution</strong>
+          <p>You may not copy, reproduce, redistribute, host, or mirror this software, its source code, or its compiled assets in any form — online or offline — without explicit written permission from the author.</p>
+        </div>
+      </div>
+      <div class="term-item">
+        <div class="term-icon">✏️</div>
+        <div class="term-body">
+          <strong>No Derivative Works</strong>
+          <p>You may not modify, adapt, translate, or create derivative works based upon this software or any part thereof.</p>
+        </div>
+      </div>
+      <div class="term-item">
+        <div class="term-icon">👁</div>
+        <div class="term-body">
+          <strong>Personal Educational View Only</strong>
+          <p>You are granted a limited, non-exclusive, non-transferable license to view the source code solely for personal educational and review purposes on GitHub.</p>
+        </div>
+      </div>
+      <div class="term-item">
+        <div class="term-icon">🎁</div>
+        <div class="term-body">
+          <strong>Currently Free to Use</strong>
+          <p>This software is currently provided at no cost for personal use. Pricing and access terms are subject to change at any time at the author's sole discretion.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="doc-section">
+    <h2>2 · Disclaimer of Warranty</h2>
+    <div class="disclaimer">
+      This software is provided <strong>"as is"</strong>, without warranty of any kind, express or implied,
+      including but not limited to the warranties of merchantability, fitness for a particular purpose,
+      and non-infringement. In no event shall the authors or copyright holders be liable for any claim,
+      damages, or other liability, whether in an action of contract, tort, or otherwise, arising from,
+      out of, or in connection with the software or the use or other dealings in the software.
+    </div>
+  </div>
+
+  <div class="contact-bar">
+    <p>For licensing inquiries or written permission requests:</p>
+    <a href="mailto:info@supernotes.online">info@supernotes.online</a>
+  </div>
+
+</main>
+
+<footer>
+  <p>SuperNotes · <span>All rights reserved</span> · 2026</p>
+</footer>
+
+<button class="btt" id="btt" aria-label="Back to top">
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script>
+const root = document.documentElement;
+document.getElementById('themeToggle').addEventListener('click', () => {
+  const isLight = root.getAttribute('data-theme') === 'light';
+  if (isLight) { root.removeAttribute('data-theme'); localStorage.setItem('html-it-theme', 'dark'); }
+  else { root.setAttribute('data-theme', 'light'); localStorage.setItem('html-it-theme', 'light'); }
+});
+const btt = document.getElementById('btt');
+window.addEventListener('scroll', () => btt.classList.toggle('visible', window.scrollY > 300), { passive: true });
+btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+</script>
+</body>
+</html>
