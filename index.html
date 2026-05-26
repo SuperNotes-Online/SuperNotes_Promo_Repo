@@ -185,6 +185,32 @@
             --green-border: oklch(30% 0.09 163);
         }
 
+        /* Hero eyebrow & typewriter: dark mode restores light colors */
+        [data-theme="dark"] .hero-eyebrow {
+            color: #fecf05;
+        }
+
+        [data-theme="dark"] .tw-title {
+            color: oklch(93% 0.005 260);
+        }
+
+        [data-theme="dark"] .tw-comment {
+            color: oklch(72% 0.18 163);
+        }
+
+        [data-theme="dark"] .tw-wiki {
+            color: oklch(76% 0.18 70);
+        }
+
+        [data-theme="dark"] .tw-done {
+            color: oklch(65% 0.15 163);
+        }
+
+        [data-theme="dark"] .tw-todo,
+        [data-theme="dark"] .tw-text {
+            color: oklch(56% 0.01 260);
+        }
+
         /* Light sections flip to dark */
         [data-theme="dark"] .features-section {
             background: var(--cream) !important;
@@ -515,7 +541,7 @@
             font-family: 'JetBrains Mono', monospace;
             font-size: 12px;
             font-weight: 500;
-            color: #fecf05;
+            color: oklch(22% 0.04 163);
             background: var(--green-bg);
             border: 1px solid var(--green-border);
             padding: 6px 14px;
@@ -660,29 +686,29 @@
             font-family: 'Syne', sans-serif;
             font-size: 30px;
             font-weight: 800;
-            color: oklch(93% 0.005 260);
+            color: oklch(14% 0.005 260);
             letter-spacing: -0.02em;
             white-space: nowrap;
         }
 
         .tw-comment {
-            color: oklch(72% 0.18 163);
+            color: oklch(38% 0.18 163);
         }
 
         .tw-wiki {
-            color: oklch(76% 0.18 70);
+            color: oklch(44% 0.18 70);
         }
 
         .tw-done {
-            color: oklch(65% 0.15 163);
+            color: oklch(36% 0.15 163);
         }
 
         .tw-todo {
-            color: oklch(56% 0.01 260);
+            color: oklch(40% 0.01 260);
         }
 
         .tw-text {
-            color: oklch(56% 0.01 260);
+            color: oklch(40% 0.01 260);
         }
 
         .tw-ai-label {

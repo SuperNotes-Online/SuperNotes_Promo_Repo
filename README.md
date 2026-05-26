@@ -59,8 +59,8 @@ SuperNotes is designed to provide a premium, modern developer experience:
 
 ## 🛠️ How to Use
 
-1.  **Open the application file:**
-    Simply double-click `SuperNotes.html` to open it in any modern browser (Chrome, Safari, Edge, Firefox).
+1.  **Open the app:**
+    Visit **[supernotes.online](https://supernotes.online)** in any modern browser (Chrome, Safari, Edge, Firefox). No install, no sign-up.
 2.  **Start Writing:**
     Create notes, insert checklists, embed YouTube videos, drop local images/videos, and explore your local AI companion.
 
@@ -98,7 +98,7 @@ SuperNotes is designed to provide a premium, modern developer experience:
 
 ## ☕ Support the Project
 
-SuperNotes is entirely open-source, free, and developed with passion. If SuperNotes has helped organize your thoughts or boosted your productivity, please consider buying us a coffee!
+SuperNotes is free and developed with passion. If SuperNotes has helped organize your thoughts or boosted your productivity, please consider buying us a coffee!
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/supernotes)
 
