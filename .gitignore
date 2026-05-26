@@ -8,7 +8,11 @@ gemini_notes_recovery.md
 SuperNotes.html
 backups/
 SocialMedia/
+Mascots_May_26/
 *.bak
+
+# Claude Code settings & memory
+.claude/
 
 # OS files
 .DS_Store
