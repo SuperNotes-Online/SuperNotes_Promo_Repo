@@ -185,8 +185,18 @@
             --green-border: oklch(30% 0.09 163);
         }
 
+        /* Similarity legend */
+        .similarity-legend { color: oklch(18% 0.01 260); }
+        [data-theme="dark"] .similarity-legend { color: oklch(88% 0.005 260); }
+
         /* Hero eyebrow & typewriter: dark mode restores light colors */
-        [data-theme="dark"] .hero-eyebrow {
+        [data-theme="dark"] .hero-eyebrow,
+        [data-theme="dark"] .section-eyebrow,
+        [data-theme="dark"] .cta-eyebrow {
+            color: #fecf05;
+        }
+
+        [data-theme="dark"] .toolbar-row-label {
             color: #fecf05;
         }
 
@@ -814,7 +824,7 @@
         .section-eyebrow {
             font-family: 'JetBrains Mono', monospace;
             font-size: 11px;
-            color: #fecf05;
+            color: oklch(22% 0.01 260);
             text-transform: uppercase;
             letter-spacing: 0.1em;
             margin-bottom: 20px;
@@ -997,7 +1007,7 @@
             font-weight: 500;
             letter-spacing: 0.06em;
             text-transform: uppercase;
-            color: #fecf05;
+            color: oklch(22% 0.04 163);
             background: var(--green-bg);
             border: 1px solid var(--green-border);
             padding: 5px 14px;
@@ -1273,7 +1283,7 @@
         .cta-eyebrow {
             font-family: 'JetBrains Mono', monospace;
             font-size: 11px;
-            color: #fecf05;
+            color: oklch(22% 0.01 260);
             text-transform: uppercase;
             letter-spacing: 0.1em;
             margin-bottom: 24px;
@@ -2486,11 +2496,11 @@
                         <div class="ai-score">41%</div>
                     </div>
                 </div>
-                <div class="reveal" style="margin-top:14px; display:flex; gap:16px; flex-wrap:wrap; justify-content:center; font-family:'JetBrains Mono',monospace; font-size:11px;">
-                    <span style="color:#22ddaa;"><strong>30%+</strong> highly related</span>
-                    <span style="opacity:0.5;">·</span>
-                    <span style="color:#ffaa22;"><strong>10–30%</strong> loosely related</span>
-                    <span style="opacity:0.5;">·</span>
+                <div class="reveal similarity-legend" style="margin-top:14px; display:flex; gap:16px; flex-wrap:wrap; justify-content:center; font-family:'JetBrains Mono',monospace; font-size:11px;">
+                    <span><strong>30%+</strong> highly related</span>
+                    <span style="opacity:0.4;">·</span>
+                    <span><strong>10–30%</strong> loosely related</span>
+                    <span style="opacity:0.4;">·</span>
                     <span style="opacity:0.55;"><strong>&lt;8%</strong> filtered out</span>
                 </div>
             </div>
