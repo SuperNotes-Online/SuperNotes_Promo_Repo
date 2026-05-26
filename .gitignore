@@ -1,0 +1,15 @@
+﻿# Internal / private files — do not push to promo repo
+brand-spec.html
+banner-1600x400.html
+bannerSN.jpg
+SuperNotes_BCoffee.png
+SuperNotes_BCoffee2.png
+gemini_notes_recovery.md
+SuperNotes.html
+backups/
+SocialMedia/
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
