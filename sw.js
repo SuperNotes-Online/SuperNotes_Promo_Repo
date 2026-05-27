@@ -1,5 +1,5 @@
 // SuperNotes Service Worker — cache-first for app shell, network-first for fonts/CDN
-const CACHE = 'supernotes-v2';
+const CACHE = 'supernotes-v3';
 const APP_SHELL = [
   '/',
   '/index.html'
