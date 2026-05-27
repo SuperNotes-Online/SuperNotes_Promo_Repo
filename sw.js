@@ -1,9 +1,6 @@
-// SuperNotes Service Worker — cache-first for app shell, network-first for fonts/CDN
-const CACHE = 'supernotes-v3';
-const APP_SHELL = [
-  '/',
-  '/index.html'
-];
+// SuperNotes Service Worker — network-first for HTML, cache-first for static assets
+const CACHE = 'supernotes-v4';
+const APP_SHELL = ['/sw.js'];
 
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -34,12 +31,26 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Cache-first for everything else (app shell, images)
+  // Network-first for HTML — always get the freshest app shell
+  if (url.origin === self.location.origin &&
+      (url.pathname === '/' || url.pathname.endsWith('.html'))) {
+    e.respondWith(
+      fetch(e.request).then(resp => {
+        if (resp.ok) {
+          const clone = resp.clone();
+          caches.open(CACHE).then(c => c.put(e.request, clone));
+        }
+        return resp;
+      }).catch(() => caches.match(e.request))
+    );
+    return;
+  }
+
+  // Cache-first for everything else (images, icons, manifest)
   e.respondWith(
     caches.match(e.request).then(cached => {
       if (cached) return cached;
       return fetch(e.request).then(resp => {
-        // Cache successful same-origin responses
         if (resp.ok && url.origin === self.location.origin) {
           const clone = resp.clone();
           caches.open(CACHE).then(c => c.put(e.request, clone));
