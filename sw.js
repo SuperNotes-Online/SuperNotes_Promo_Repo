@@ -1,5 +1,5 @@
 // SuperNotes Service Worker — network-first for HTML, cache-first for static assets
-const CACHE = 'supernotes-v5';
+const CACHE = 'supernotes-v6';
 const APP_SHELL = ['/sw.js'];
 
 self.addEventListener('install', e => {
