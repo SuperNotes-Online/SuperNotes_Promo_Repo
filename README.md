@@ -18,8 +18,6 @@
 
 ---
 
-![](images/screenshots/1.png)
-
 ---
 
 ## Overview
@@ -28,7 +26,7 @@
 
 SuperNotes stores everything in your browser's **IndexedDB** — no servers, no accounts, no tracking. It runs completely offline, works as a PWA on any device, and requires zero setup from first keystroke to last.
 
-**[→ Launch the app](https://supernotes.online)**
+**[→ Launch the app](https://supernotes.online)** &nbsp;|&nbsp; **[→ Launch Info Page](https://promo.supernotes.online)**
 
 ---
 
