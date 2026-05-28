@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="SuperNotes_logo.png" alt="SuperNotes Logo" width="160"/>
+<img src="images/SuperNotes_logo.png" alt="SuperNotes Logo" width="160"/>
 
 # ⚡ SuperNotes
 
@@ -14,9 +14,6 @@
 [![No Account](https://img.shields.io/badge/No_Account-Required-cc55ff?style=for-the-badge)](https://supernotes.online)
 [![Free Forever](https://img.shields.io/badge/Free-Forever-ffaa22?style=for-the-badge)](https://supernotes.online)
 
-<br/>
-
-<img src="bannerSN.jpg" alt="SuperNotes Banner" width="100%" style="border-radius:12px"/>
 
 </div>
 
@@ -71,7 +68,7 @@ With local-first storage, integrated infinite whiteboards, bidirectional wiki-li
 
 | | |
 |---|---|
-| <img src="Ampster_new__mascot.png" width="80"/> | <img src="Fluxmo_new__mascot.png" width="80"/> |
+| <img src="images/Ampster_new__mascot.png" width="80"/> | <img src="images/Fluxmo_new__mascot.png" width="80"/> |
 
 - **Collectible Companions:** Meet your own procedurally generated digital developer companion!
 - **Unique DNA:** Every mascot is born with a rare **7-digit serial number**, custom names, and neon pixel aesthetics.
