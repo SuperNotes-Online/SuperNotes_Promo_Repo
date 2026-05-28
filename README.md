@@ -90,17 +90,6 @@ SuperNotes stores everything in your browser's **IndexedDB** — no servers, no 
 
 ![](images/screenshots/9.png)
 
-<div align="center">
-  <img src="images/Ampster_new__mascot.png" width="72" alt="Ampster" />
-  &nbsp;&nbsp;
-  <img src="images/Fluxmo_new__mascot.png" width="72" alt="Fluxmo" />
-  &nbsp;&nbsp;
-  <img src="images/finn-33668780_mascot.png" width="72" alt="Finn" />
-  &nbsp;&nbsp;
-  <img src="images/astro-99368730_mascot.png" width="72" alt="Astro" />
-</div>
-
-<br>
 
 <details>
 <summary><strong>Procedural Companions — details</strong></summary>
