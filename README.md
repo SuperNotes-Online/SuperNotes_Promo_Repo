@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="images/SuperNotes_logo.png" alt="SuperNotes" width="140" />
-
-# SuperNotes
+<img src="images/SuperNotes_logo.png" alt="SuperNotes" width="280" />
 
 **Your thoughts. Your machine. No cloud. No account. No compromise.**
 
