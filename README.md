@@ -22,7 +22,7 @@
 
 ![](images/screenshots/2.png)
 
-SuperNotes stores everything in your browser's **IndexedDB** — no servers, no accounts, no tracking. It runs completely offline, works as a PWA on any device, and requires zero setup from first keystroke to last.
+SuperNotes stores everything in your browser's **IndexedDB** — no servers, no accounts, no tracking. It runs completely offline on any device and requires zero setup from first keystroke to last.
 
 **[→ Launch the app](https://supernotes.online)** &nbsp;|&nbsp; **[→ Launch Info Page](https://promo.supernotes.online)**
 
@@ -159,9 +159,9 @@ SuperNotes stores everything in your browser's **IndexedDB** — no servers, no 
 
 ## Get Started
 
-1. Visit **[promo.supernotes.online](https://promo.supernotes.online)** and **[supernotes.online](https://supernotes.online)** — no install, no sign-up
-2. Start writing — your notes are yours, forever, offline
-3. Have fun with Mascot Studio!
+1. Visit **[supernotes.online](https://supernotes.online)** — no install, no sign-up
+2. Tap **Install** in your browser to add it as a PWA
+3. Start writing — your notes are yours, forever, offline
 
 ---
 
