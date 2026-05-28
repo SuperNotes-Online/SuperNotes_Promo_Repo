@@ -1,107 +1,109 @@
 <div align="center">
 
-<img src="images/SuperNotes_logo.png" alt="SuperNotes Logo" width="160"/>
+<img src="images/SuperNote_logo.png" alt="SuperNotes" width="140" />
 
-# ⚡ SuperNotes
+# SuperNotes
 
-### Free, Private, Local-First Note-Taking App
+**Your thoughts. Your machine. No cloud. No account. No compromise.**
 
-> **Your thoughts. Your machine. Zero compromise.**
-
-[![Live App](https://img.shields.io/badge/🌐_Live_App-supernotes.online-22ddaa?style=for-the-badge)](https://supernotes.online)
-[![PWA](https://img.shields.io/badge/PWA-Installable-4488ff?style=for-the-badge&logo=pwa)](https://supernotes.online)
-[![Offline](https://img.shields.io/badge/Works-Offline-success?style=for-the-badge)](https://supernotes.online)
-[![No Account](https://img.shields.io/badge/No_Account-Required-cc55ff?style=for-the-badge)](https://supernotes.online)
-[![Free Forever](https://img.shields.io/badge/Free-Forever-ffaa22?style=for-the-badge)](https://supernotes.online)
-
+[![Live App](https://img.shields.io/badge/🌐_Launch_App-supernotes.online-22ddaa?style=for-the-badge)](https://supernotes.online)
+[![PWA](https://img.shields.io/badge/PWA-Installable-4488ff?style=for-the-badge&logo=pwa)](#get-started)
+[![Offline](https://img.shields.io/badge/Works-Offline-success?style=for-the-badge)](#)
+[![No Account](https://img.shields.io/badge/No_Account-Required-cc55ff?style=for-the-badge)](#)
+[![Free Forever](https://img.shields.io/badge/Free-Forever-ffaa22?style=for-the-badge)](#)
 
 </div>
 
 ---
 
-## 🌌 Overview
+## Overview
 
-**SuperNotes** is a beautifully crafted, privacy-first, browser-based note-taking app that bridges the gap between a simple notepad and a complex knowledge graph. It runs **completely offline**, requiring no installation, no sign-ups, and no account.
+SuperNotes stores everything in your browser's **IndexedDB** — no servers, no accounts, no tracking. It runs completely offline, works as a PWA on any device, and requires zero setup from first keystroke to last.
 
-With local-first storage, integrated infinite whiteboards, bidirectional wiki-linking, an advanced WYSIWYG editor, a local AI connection engine, and procedurally generated digital companions — **SuperNotes is the ultimate second brain for developers and power users.**
-
----
-
-## ✨ Features At A Glance
-
-<details open>
-<summary><strong>🔐 1. Privacy-First & 100% Local-First</strong></summary>
-
-- **Zero Cloud:** All your notes, checklist items, and media live in your browser's persistent **IndexedDB** storage.
-- **Full Offline Operation:** The entire app runs beautifully on a plane, in a coffee shop, or in high-security environments with zero internet connection.
-- **No Accounts:** No emails, no sign-ups, no tracking cookies. You are completely anonymous from your very first keystroke.
-
-</details>
-
-<details open>
-<summary><strong>✏️ 2. Integrated Excalidraw Infinite Canvas</strong></summary>
-
-- **Sketch side-by-side:** Click once to launch an infinite vector drawing whiteboard directly inside your text notes.
-- **No context switching:** Create architecture diagrams, mind maps, user flows, and wireframes without leaving your writing workspace.
-
-</details>
-
-<details open>
-<summary><strong>🔗 3. Bidirectional Wiki Linking</strong></summary>
-
-- **Simple Syntax:** Just type `[[` to instantly link any two notes together.
-- **Hover Previews:** Hover over any wiki link to preview the target note's contents in a beautiful, non-intrusive popup.
-- **Automatic Backlinks:** Backlinks are tracked in real-time so you can effortlessly explore your knowledge graph.
-
-</details>
-
-<details open>
-<summary><strong>🤖 4. Dual Intelligence AI Engine</strong></summary>
-
-- 📡 **Local Connection Engine:** Runs a private TF-IDF cosine similarity algorithm locally in your browser to automatically surface related notes as you type. No API keys, no latency, 100% private.
-- 💬 **Ask SuperNotes Chat:** Connects with the **DeepSeek API** to open a conversational command center directly inside your notes — summarize ideas, brainstorm, or refactor code instantly.
-
-</details>
-
-<details open>
-<summary><strong>🎭 5. Mascot Studio & Procedural Companions</strong></summary>
-
-| | |
-|---|---|
-| <img src="images/Ampster_new__mascot.png" width="80"/> | <img src="images/Fluxmo_new__mascot.png" width="80"/> |
-
-- **Collectible Companions:** Meet your own procedurally generated digital developer companion!
-- **Unique DNA:** Every mascot is born with a rare **7-digit serial number**, custom names, and neon pixel aesthetics.
-- **Infinite Variety:** Over **1.1 quadrillion combinations** — your companion is uniquely yours forever.
-- **Native Share:** Tap Share to open the native share sheet on any device and post your mascot to X, Instagram, iMessage, or anywhere!
-
-</details>
-
-<details open>
-<summary><strong>📧 6. Multi-Platform Social Export Suite</strong></summary>
-
-- **One-Click Formatting:** Packages your notes beautifully for X, LinkedIn, Slack, Discord, or Email.
-- **HTML Export:** Exports into fully styled, self-contained offline files that look perfect on any device.
-
-</details>
+**[→ Launch the app](https://supernotes.online)**
 
 ---
 
-## ⚙️ Tech Stack
+## Features
 
-| Layer | Technology | Details |
+<details>
+<summary><strong>Privacy-First & 100% Local</strong></summary>
+
+- **Zero Cloud:** All your notes, media, and checklists live in **IndexedDB** — zero server calls, ever
+- **Full Offline Operation:** Works on a plane, in a bunker, or anywhere with zero internet
+- **No Accounts:** No emails, no sign-ups, no tracking cookies — completely anonymous from day one
+
+</details>
+
+<details>
+<summary><strong>Integrated Excalidraw Infinite Canvas</strong></summary>
+
+- **Sketch side-by-side:** Launch an infinite vector whiteboard directly inside your notes with one click
+- **No context switching:** Architecture diagrams, mind maps, wireframes — all without leaving your editor
+
+</details>
+
+<details>
+<summary><strong>Bidirectional Wiki Linking</strong></summary>
+
+- **Simple syntax:** Type `[[` to instantly link any two notes together
+- **Hover previews:** See the target note's content in a popup before clicking
+- **Automatic backlinks:** Every link tracked in real-time — explore your knowledge graph effortlessly
+
+</details>
+
+<details>
+<summary><strong>Dual Intelligence AI Engine</strong></summary>
+
+- **Local Connection Engine:** TF-IDF cosine similarity runs in-browser — surfaces related notes as you type, no API keys, no latency
+- **Ask SuperNotes Chat:** DeepSeek API integration for a conversational command center — summarize, brainstorm, or refactor code instantly
+
+</details>
+
+<details>
+<summary><strong>Mascot Studio & Procedural Companions</strong></summary>
+
+<div align="center">
+  <img src="images/Ampster_new__mascot.png" width="72" alt="Ampster" />
+  &nbsp;&nbsp;
+  <img src="images/Fluxmo_new__mascot.png" width="72" alt="Fluxmo" />
+  &nbsp;&nbsp;
+  <img src="images/finn-33668780_mascot.png" width="72" alt="Finn" />
+  &nbsp;&nbsp;
+  <img src="images/astro-99368730_mascot.png" width="72" alt="Astro" />
+</div>
+
+- **Over 1.1 quadrillion unique combinations** — your companion is genuinely, permanently yours
+- **Unique DNA:** Every mascot has a rare 7-digit serial number, custom name, and neon pixel aesthetic
+- **Native Share:** Post your mascot directly to X, Instagram, iMessage, or anywhere via the native share sheet
+
+</details>
+
+<details>
+<summary><strong>Multi-Platform Social Export Suite</strong></summary>
+
+- **One-click formatting:** Packages notes for X, LinkedIn, Slack, Discord, or Email
+- **HTML Export:** Fully styled, self-contained offline files that look perfect on any device
+
+</details>
+
+---
+
+## Tech Stack
+
+| Layer | Technology | What it does |
 |-------|-----------|---------|
-| 🗄️ Storage | **IndexedDB** | All notes and media persist entirely in the browser — zero server calls |
-| ✏️ Canvas | **Excalidraw** | Infinite vector whiteboard embedded directly in the editor |
-| 🧠 Local AI | **TF-IDF Engine** | Cosine similarity runs in-browser to surface related notes as you type |
-| 💬 Chat AI | **DeepSeek API** | Optional conversational assistant for summarizing and brainstorming |
-| 🎨 Color | **OKLCH** | Perceptually uniform color space for rich, consistent palettes |
-| 📤 Publishing | **Blotato** | Social media automation & API platform |
-| ⚡ Runtime | **Vanilla JS + HTML5** | Zero frameworks, zero build steps, zero dependencies |
+| Storage | **IndexedDB** | All notes and media — zero server calls |
+| Canvas | **Excalidraw** | Infinite vector whiteboard embedded in the editor |
+| Local AI | **TF-IDF Engine** | Surfaces related notes in-browser, no API |
+| Chat AI | **DeepSeek API** | Optional conversational assistant |
+| Color | **OKLCH** | Perceptually uniform color space |
+| Publishing | **Blotato** | Social media automation & API |
+| Runtime | **Vanilla JS + HTML5** | Zero frameworks, zero build steps, zero dependencies |
 
 ---
 
-## ⚔️ SuperNotes vs The Rest
+## SuperNotes vs. The Rest
 
 | Feature | SuperNotes | Notion | Obsidian | Evernote |
 |---------|:---:|:---:|:---:|:---:|
@@ -117,17 +119,17 @@ With local-first storage, integrated infinite whiteboards, bidirectional wiki-li
 
 ---
 
-## 🚀 Get Started
+## Get Started
 
 1. Visit **[supernotes.online](https://supernotes.online)** — no install, no sign-up
-2. Tap **Install** in your browser to add it as a PWA to your home screen
+2. Tap **Install** in your browser to add it as a PWA
 3. Start writing — your notes are yours, forever, offline
 
 ---
 
-## ☕ Support the Project
+## Support the Project
 
-SuperNotes is free and developed with passion. If it's helped you stay organized or boosted your productivity, consider buying us a coffee!
+SuperNotes is free. If it's boosted your productivity, consider buying us a coffee.
 
 <div align="center">
 
@@ -137,10 +139,6 @@ SuperNotes is free and developed with passion. If it's helped you stay organized
 
 ---
 
-## 🔒 License & Copyright
+## License
 
-Copyright © 2026 SuperNotes. All rights reserved.
-
-The source code, assets, and procedural designs are proprietary. Unauthorized copying, modification, distribution, or commercial use is strictly prohibited.
-
-*Created with 💖 by SuperNotes.*
+Copyright © 2026 SuperNotes. All rights reserved. Proprietary — unauthorized copying, modification, or commercial use is strictly prohibited.
