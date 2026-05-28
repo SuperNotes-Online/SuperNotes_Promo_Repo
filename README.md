@@ -134,6 +134,8 @@ SuperNotes stores everything in your browser's **IndexedDB** — no servers, no 
 
 ![](images/screenshots/11.png)
 
+<div align="center">
+
 | Feature | SuperNotes | Notion | Obsidian | Evernote |
 |---------|:---:|:---:|:---:|:---:|
 | 100% Private & Local | ✦ | ✗ | ✓ | ✗ |
@@ -146,9 +148,13 @@ SuperNotes stores everything in your browser's **IndexedDB** — no servers, no 
 | Social Export Suite | ✦ | ✗ | ✗ | ✗ |
 | Digital Companions | ✦ 1.1 quadrillion | ✗ | ✗ | ✗ |
 
+</div>
+
 ---
 
 ## Tech Stack
+
+<div align="center">
 
 | Layer | Technology | What it does |
 |-------|-----------|---------|
@@ -159,6 +165,8 @@ SuperNotes stores everything in your browser's **IndexedDB** — no servers, no 
 | Color | **OKLCH** | Perceptually uniform color space |
 | Publishing | **Blotato** | Social media automation & API |
 | Runtime | **Vanilla JS + HTML5** | Zero frameworks, zero build steps, zero dependencies |
+
+</div>
 
 ---
 
