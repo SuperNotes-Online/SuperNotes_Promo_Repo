@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="images/SuperNotes_logo.png" alt="SuperNotes" width="140" />
 
@@ -6,11 +6,13 @@
 
 **Your thoughts. Your machine. No cloud. No account. No compromise.**
 
+<!-- badges hidden for now
 [![Live App](https://img.shields.io/badge/🌐_Launch_App-supernotes.online-22ddaa?style=for-the-badge)](https://supernotes.online)
 [![PWA](https://img.shields.io/badge/PWA-Installable-4488ff?style=for-the-badge&logo=pwa)](#get-started)
 [![Offline](https://img.shields.io/badge/Works-Offline-success?style=for-the-badge)](#)
 [![No Account](https://img.shields.io/badge/No_Account-Required-cc55ff?style=for-the-badge)](#)
 [![Free Forever](https://img.shields.io/badge/Free-Forever-ffaa22?style=for-the-badge)](#)
+-->
 
 </div>
 
