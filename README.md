@@ -3,6 +3,7 @@
 <img src="images/SuperNotes_logo.png" alt="SuperNotes" width="280" />
 
 **Your thoughts. Your machine. No cloud. No account. No compromise.**
+**Multimedia meets Notepad!!**
 
 <!-- badges hidden for now
 [![Live App](https://img.shields.io/badge/🌐_Launch_App-supernotes.online-22ddaa?style=for-the-badge)](https://supernotes.online)
