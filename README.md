@@ -1,6 +1,6 @@
-<div align="center">
+﻿<div align="center">
 
-<img src="images/SuperNote_logo.png" alt="SuperNotes" width="140" />
+<img src="images/SuperNotes_logo.png" alt="SuperNotes" width="140" />
 
 # SuperNotes
 
@@ -16,7 +16,13 @@
 
 ---
 
+![](images/screenshots/1.png)
+
+---
+
 ## Overview
+
+![](images/screenshots/2.png)
 
 SuperNotes stores everything in your browser's **IndexedDB** — no servers, no accounts, no tracking. It runs completely offline, works as a PWA on any device, and requires zero setup from first keystroke to last.
 
@@ -24,16 +30,28 @@ SuperNotes stores everything in your browser's **IndexedDB** — no servers, no 
 
 ---
 
-## Features
+## Privacy First
+
+![](images/screenshots/3.png)
+
+![](images/screenshots/4.png)
 
 <details>
-<summary><strong>Privacy-First & 100% Local</strong></summary>
+<summary><strong>100% Local & Private — details</strong></summary>
 
 - **Zero Cloud:** All your notes, media, and checklists live in **IndexedDB** — zero server calls, ever
 - **Full Offline Operation:** Works on a plane, in a bunker, or anywhere with zero internet
 - **No Accounts:** No emails, no sign-ups, no tracking cookies — completely anonymous from day one
 
 </details>
+
+---
+
+## Features
+
+![](images/screenshots/5.png)
+
+![](images/screenshots/6.png)
 
 <details>
 <summary><strong>Integrated Excalidraw Infinite Canvas</strong></summary>
@@ -52,16 +70,27 @@ SuperNotes stores everything in your browser's **IndexedDB** — no servers, no 
 
 </details>
 
+---
+
+## AI Engine
+
+![](images/screenshots/7.png)
+
 <details>
-<summary><strong>Dual Intelligence AI Engine</strong></summary>
+<summary><strong>Dual Intelligence AI — details</strong></summary>
 
 - **Local Connection Engine:** TF-IDF cosine similarity runs in-browser — surfaces related notes as you type, no API keys, no latency
 - **Ask SuperNotes Chat:** DeepSeek API integration for a conversational command center — summarize, brainstorm, or refactor code instantly
 
 </details>
 
-<details>
-<summary><strong>Mascot Studio & Procedural Companions</strong></summary>
+---
+
+## Mascot Studio
+
+![](images/screenshots/8.png)
+
+![](images/screenshots/9.png)
 
 <div align="center">
   <img src="images/Ampster_new__mascot.png" width="72" alt="Ampster" />
@@ -73,19 +102,49 @@ SuperNotes stores everything in your browser's **IndexedDB** — no servers, no 
   <img src="images/astro-99368730_mascot.png" width="72" alt="Astro" />
 </div>
 
+<br>
+
+<details>
+<summary><strong>Procedural Companions — details</strong></summary>
+
 - **Over 1.1 quadrillion unique combinations** — your companion is genuinely, permanently yours
 - **Unique DNA:** Every mascot has a rare 7-digit serial number, custom name, and neon pixel aesthetic
 - **Native Share:** Post your mascot directly to X, Instagram, iMessage, or anywhere via the native share sheet
 
 </details>
 
+---
+
+## Multimedia
+
+![](images/screenshots/10.png)
+
 <details>
-<summary><strong>Multi-Platform Social Export Suite</strong></summary>
+<summary><strong>Rich Media Support — details</strong></summary>
 
 - **One-click formatting:** Packages notes for X, LinkedIn, Slack, Discord, or Email
 - **HTML Export:** Fully styled, self-contained offline files that look perfect on any device
+- **Embedded YouTube:** Drop any YouTube URL and it plays right inside your note
 
 </details>
+
+---
+
+## How It Stacks Up
+
+![](images/screenshots/11.png)
+
+| Feature | SuperNotes | Notion | Obsidian | Evernote |
+|---------|:---:|:---:|:---:|:---:|
+| 100% Private & Local | ✦ | ✗ | ✓ | ✗ |
+| Works Fully Offline | ✦ | ✗ | ✓ | ~ |
+| Free Forever | ✦ | ~ | ✓ | ~ |
+| No Account Required | ✦ | ✗ | ✓ | ✗ |
+| Built-in AI Engine | ✦ Local + Chat | ~ Paid | ~ Plugin | ~ Paid |
+| Infinite Canvas | ✦ Excalidraw | ✓ | ~ Plugin | ✗ |
+| Bidirectional Wiki Links | ✦ | ✓ | ✓ | ✗ |
+| Social Export Suite | ✦ | ✗ | ✗ | ✗ |
+| Digital Companions | ✦ 1.1 quadrillion | ✗ | ✗ | ✗ |
 
 ---
 
@@ -100,22 +159,6 @@ SuperNotes stores everything in your browser's **IndexedDB** — no servers, no 
 | Color | **OKLCH** | Perceptually uniform color space |
 | Publishing | **Blotato** | Social media automation & API |
 | Runtime | **Vanilla JS + HTML5** | Zero frameworks, zero build steps, zero dependencies |
-
----
-
-## SuperNotes vs. The Rest
-
-| Feature | SuperNotes | Notion | Obsidian | Evernote |
-|---------|:---:|:---:|:---:|:---:|
-| 100% Private & Local | ✦ | ✗ | ✓ | ✗ |
-| Works Fully Offline | ✦ | ✗ | ✓ | ~ |
-| Free Forever | ✦ | ~ | ✓ | ~ |
-| No Account Required | ✦ | ✗ | ✓ | ✗ |
-| Built-in AI Engine | ✦ Local + Chat | ~ Paid | ~ Plugin | ~ Paid |
-| Infinite Canvas | ✦ Excalidraw | ✓ | ~ Plugin | ✗ |
-| Bidirectional Wiki Links | ✦ | ✓ | ✓ | ✗ |
-| Social Export Suite | ✦ | ✗ | ✗ | ✗ |
-| Digital Companions | ✦ 1.1 quadrillion | ✗ | ✗ | ✗ |
 
 ---
 
