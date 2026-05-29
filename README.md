@@ -151,7 +151,7 @@ SuperNotes Online stores everything in your browser's **IndexedDB**... no server
 | Local AI | **TF-IDF Engine** | Surfaces related notes in-browser, no API |
 | Chat AI | **DeepSeek API** | Optional conversational assistant |
 | Color | **OKLCH** | Perceptually uniform color space |
-| Publishing | **Blotato** | Social media automation & API |
+| Publishing | **Blotato Link** | Social media automation & API |
 | Runtime | **Vanilla JS + HTML5** | Zero frameworks, zero build steps, zero dependencies |
 
 </div>
