@@ -131,7 +131,7 @@ SuperNotes Online stores everything in your browser's **IndexedDB**... no server
 | Free Forever | ✦ | ~ | ✓ | ~ |
 | No Account Required | ✦ | ✗ | ✓ | ✗ |
 | Built-in AI Engine | ✦ Local + Chat | ~ Paid | ~ Plugin | ~ Paid |
-| Infinite Canvas | ✦ Excalidraw | ✓ | ~ Plugin | ✗ |
+| Infinite Canvas Link | ✦ Excalidraw | ✓ | ~ Plugin | ✗ |
 | Bidirectional Wiki Links | ✦ | ✓ | ✓ | ✗ |
 | Social Export Suite | ✦ | ✗ | ✗ | ✗ |
 | Digital Companions | ✦ 1.1 quadrillion | ✗ | ✗ | ✗ |
@@ -147,7 +147,7 @@ SuperNotes Online stores everything in your browser's **IndexedDB**... no server
 | Layer | Technology | What it does |
 |-------|-----------|---------|
 | Storage | **IndexedDB** | All notes and media — zero server calls |
-| Canvas | **Excalidraw** | Infinite vector whiteboard embedded in the editor |
+| Canvas Link | **Excalidraw** | Infinite vector whiteboard embedded in the editor |
 | Local AI | **TF-IDF Engine** | Surfaces related notes in-browser, no API |
 | Chat AI | **DeepSeek API** | Optional conversational assistant |
 | Color | **OKLCH** | Perceptually uniform color space |
