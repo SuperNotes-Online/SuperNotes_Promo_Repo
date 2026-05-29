@@ -23,7 +23,7 @@
 
 ![](images/screenshots/2.png)
 
-SuperNotes stores everything in your browser's **IndexedDB**... no servers, no accounts, no tracking. It runs completely offline on any device and requires zero setup from first keystroke to last.
+SuperNotes Online stores everything in your browser's **IndexedDB**... no servers, no accounts, no tracking. It runs completely offline on any device and requires zero setup from first keystroke to last.
 
 **[→ Launch the app](https://supernotes.online)** &nbsp;|&nbsp; **[→ Launch Info Page](https://promo.supernotes.online)**
 
@@ -180,4 +180,4 @@ SuperNotes is free. If it's boosted your productivity, consider buying us a coff
 
 ## License
 
-Copyright © 2026 SuperNotes. All rights reserved. Proprietary — unauthorized copying, modification, or commercial use is strictly prohibited.
+Copyright © 2026 SuperNotes Online. All rights reserved. Proprietary — unauthorized copying, modification, or commercial use is strictly prohibited.
