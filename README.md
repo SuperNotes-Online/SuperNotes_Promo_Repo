@@ -163,6 +163,7 @@ SuperNotes Online stores everything in your browser's **IndexedDB**... no server
 1. Visit **[promo.supernotes.online](https://promo.supernotes.online)** and **[supernotes.online](https://supernotes.online)** — no install, no sign-up
 2. Start writing... your notes are yours, forever, offline
 3. Have fun with MASCOT STUDIO!
+4. Please give us a star -- and share the promo and app sites!
 
 ---
 
