@@ -147,11 +147,11 @@ SuperNotes Online stores everything in your browser's **IndexedDB**... no server
 | Layer | Technology | What it does |
 |-------|-----------|---------|
 | Storage | **IndexedDB** | All notes and media — zero server calls |
-| Canvas | **Excalidraw Link** | Infinite vector whiteboard embedded in the editor |
+| Canvas | **Excalidraw Linked** | Infinite vector whiteboard embedded in the editor |
 | Local AI | **TF-IDF Engine** | Surfaces related notes in-browser, no API |
 | Chat AI | **DeepSeek API** | Optional conversational assistant |
 | Color | **OKLCH** | Perceptually uniform color space |
-| Publishing | **Blotato Link** | Social media automation & API |
+| Publishing | **Blotato Linked** | Social media automation & API |
 | Runtime | **Vanilla JS + HTML5** | Zero frameworks, zero build steps, zero dependencies |
 
 </div>
