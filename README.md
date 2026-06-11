@@ -98,6 +98,7 @@ SuperNotes Online stores everything in your browser's **IndexedDB**... no server
 - **Over 1.1 quadrillion unique combinations** — your companion is genuinely, permanently yours
 - **Unique DNA:** Every mascot has a rare 7-digit serial number, custom name, and neon pixel aesthetic
 - **Native Share:** Post your mascot directly to X, Instagram, iMessage, or anywhere via the native share sheet
+- Share or Trade with others -- no problem.
 
 </details>
 
